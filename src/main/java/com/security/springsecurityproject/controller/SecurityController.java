@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.security.springsecurityproject.entity.User;
 import com.security.springsecurityproject.service.SecurityService;
 
+
 @RestController
 @RequestMapping("/users")
 public class SecurityController {
@@ -21,7 +22,7 @@ public class SecurityController {
 	@GetMapping("/allUsers")
 	public String getUsers()
 	{
-		return "Success";
+		return "Successfully done";
 	}
 	
 
